@@ -1,7 +1,7 @@
 .top{
     height: 60px;
     background: #fff;
-    margin: 10px auto;
+    margin: 23px auto;
     width: 100%;
 }
 
@@ -21,68 +21,71 @@
 
 .structure-middle{
     height: 500px;
-    width: 60%;
+    width: 925px;
     background: whitesmoke;
-    margin-left: 50px;
+    margin-left: 278px;
 }
 
-
-.mainStream{
-    height: 500px;
-    width: 1000px;
-    margin: 20px auto;
-}
-
-.sideBar-left{
-    height: 500px;
+.profile{
+    display: block;
     width: 240px;
-    background: #fff;
-    float: left;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 2px auto;
 }
 
-.sideBar-right{
-    height: 500;
-    width: 760px;
-    background: #fff;
-    float: left;
+header{
+    font-size: larger;
+    text-align: center;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight:bolder;
+    color: #5cc8d6;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke-color: rgb(19, 72, 56);
+    -webkit-text-stroke-width: 1.2px;
 }
 
-    body{
-            background-color: darkslategray;
-            font-family:Georgia, 'Times New Roman', Times, serif
-    }
-    header{
-        text-align: center;
-        font-weight: 500;
-        color: darkslategrey;
-        -webkit-text-stroke-color: aquamarine;
-    }
-    img{
-        border-radius: 150%;
-        width: 65px;
-        float: left;
-        margin-right: 15px;
-    }
+body{
+    background-color: darkslategray;
+    font-family: Courier, monospace;
+}
 
-    .parallelogram{
-        width: 1000px;
-        height: 55px;
-        transform: skew(7deg);
-        text-align: end;
-    }
-    h4{
-        background-color: rgba(138, 255, 218, 0.864);
-    }
-    h5{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size:medium;
-        font-weight:580;
-        margin-top: 65px;
-        color:rgb(196, 250, 222)
-    }
-    p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size:small;
-        font-weight: 300;
-        color: aliceblue;
-    }
+img{
+    border-radius: 150%;
+    width: 65px;
+    margin-left: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+.parallelogram{
+    width: 910px;
+    height: 55px;
+    transform: skew(7deg);
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+h4{
+    background-color: rgba(138, 255, 218, 0.864);
+    font-size: medium;
+    text-decoration: none;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight:100;
+    margin-top: 65px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight: 300;
+}
