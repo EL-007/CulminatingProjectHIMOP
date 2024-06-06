@@ -35,6 +35,7 @@
     text-align: left;
     line-height: 40px;
     text-decoration: none;
+    margin: 2px auto;
 }
 
 header{
@@ -56,7 +57,7 @@ header{
 }
 
 .topper{
-    height: 1px;
+    height: 2px;
     list-style: none;
 }
 .topper li{
@@ -64,7 +65,7 @@ header{
 }
 .topper li a{
     display: block;
-    height: 10px;
+    height: 20px;
     text-decoration: none;
     color: #09868f;
     padding-right: 30px;
@@ -110,4 +111,9 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
     font-weight: 300;
+}
+
+.comment{
+    padding: 10px;
+    flex-wrap: wrap;
 }
