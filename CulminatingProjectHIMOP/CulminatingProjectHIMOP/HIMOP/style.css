@@ -1,7 +1,50 @@
 .top{
-    height: 100px;
-    background: gray;
-    margin: auto;
+    height: 60px;
+    background: #fff;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.structure-left{
+    height: 500px;
+    width: 240px;
+    background: #fff;
+    float: left;
+}
+
+.structure-right{
+    height: 500px;
+    width: 180px;
+    background: #fff;
+    float: right;
+}
+
+.structure-middle{
+    height: 500px;
+    width: 60%;
+    background: whitesmoke;
+    margin-left: 50px;
+}
+
+
+.mainStream{
+    height: 500px;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.sideBar-left{
+    height: 500px;
+    width: 240px;
+    background: #fff;
+    float: left;
+}
+
+.sideBar-right{
+    height: 500;
+    width: 760px;
+    background: #fff;
+    float: left;
 }
 
     body{
@@ -20,11 +63,7 @@
         float: left;
         margin-right: 15px;
     }
-    .rectangle {
-        height: 50px;
-        width: 100%;
-        background-color: #fff;
-}
+
     .parallelogram{
         width: 1000px;
         height: 55px;
