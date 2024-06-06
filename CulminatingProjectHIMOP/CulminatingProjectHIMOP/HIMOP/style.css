@@ -5,14 +5,14 @@
     width: 100%;
 }
 
-.structure-left{
+.sideBar-left{
     height: 500px;
     width: 240px;
     background: #fff;
     float: left;
 }
 
-.structure-right{
+.sideBar-right{
     height: 500px;
     width: 180px;
     background: #fff;
@@ -26,29 +26,51 @@
     margin-left: 278px;
 }
 
-.profile{
+.sideBarFunctions{
     display: block;
     width: 240px;
     height: 40px;
-    background-color: aliceblue;
+    background-color: #e3fcfb;
     color: black;
     text-align: left;
     line-height: 40px;
     text-decoration: none;
-    margin: 2px auto;
 }
 
 header{
     font-size: larger;
     text-align: center;
-    line-height: 50px;
-    font-size: xx-large;
+    line-height: 30px;
+    font-size: 234%;
     font-weight:bolder;
     color: #5cc8d6;
     font-style: italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    -webkit-text-stroke-color: rgb(19, 72, 56);
-    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #09503b;
+    -webkit-text-stroke-width: 1px;
+}
+
+.toppy{
+    list-style: none;
+    margin-left: 1050px;
+}
+
+.topper{
+    height: 1px;
+    list-style: none;
+}
+.topper li{
+    float:left;
+}
+.topper li a{
+    display: block;
+    height: 10px;
+    text-decoration: none;
+    color: #09868f;
+    padding-right: 30px;
+}
+.topper li a:hover{
+    color: #008526;
 }
 
 body{
@@ -67,7 +89,7 @@ img{
 .parallelogram{
     width: 910px;
     height: 55px;
-    transform: skew(7deg);
+    transform: skew(8deg);
     margin-left: 10px;
     text-align: center;
     
