@@ -38,19 +38,6 @@
     text-decoration: none;
 }
 
-header{
-    text-align: center;
-    line-height: 20px;
-    font-weight:bolder;
-    font-size: larger;
-    font-size: 234%;
-    color: #5cc8d6;
-    -webkit-text-stroke-color: #09503b;
-    -webkit-text-stroke-width: 1px;
-    font-style: italic;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
 .toppy{
     list-style: none;
     margin-left: 1050px;
@@ -86,6 +73,19 @@ header{
     flex-wrap: wrap;
 }
 
+header{
+    text-align: center;
+    line-height: 20px;
+    font-weight:bolder;
+    font-size: larger;
+    font-size: 234%;
+    color: #5cc8d6;
+    -webkit-text-stroke-color: #09503b;
+    -webkit-text-stroke-width: 1px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
     background-color: darkslategray;
     font-family: Courier, monospace;
@@ -96,6 +96,12 @@ img{
     width: 65px;
     margin-left: 20px;
     float: left;
+}
+
+h3{
+    font-weight: 100;
+    font-size: medium;
+    margin: auto;
 }
 
 h4{
