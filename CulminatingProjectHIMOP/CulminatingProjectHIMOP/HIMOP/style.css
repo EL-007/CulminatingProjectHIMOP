@@ -1,77 +1,89 @@
 .top{
     height: 60px;
-    background: #fff;
-    margin: 23px auto;
     width: 100%;
+    margin: 23px auto;
+    background: #fff;
 }
 
 .sideBar-left{
     height: 500px;
     width: 240px;
-    background: #fff;
     float: left;
+    background: #fff;
 }
 
 .sideBar-right{
     height: 500px;
     width: 180px;
-    background: #fff;
     float: right;
+    background: #fff;
 }
 
 .structure-middle{
     height: 500px;
     width: 925px;
-    background: whitesmoke;
     margin-left: 278px;
+    background: whitesmoke;
 }
 
 .sideBarFunctions{
-    display: block;
     width: 240px;
     height: 40px;
-    background-color: #e3fcfb;
-    color: black;
+    margin: 2px auto;
     text-align: left;
     line-height: 40px;
+    display: block;
+    background-color: #e3fcfb;
+    color: black;
     text-decoration: none;
-    margin: 2px auto;
 }
 
 header{
-    font-size: larger;
     text-align: center;
-    line-height: 30px;
-    font-size: 234%;
+    line-height: 20px;
     font-weight:bolder;
+    font-size: larger;
+    font-size: 234%;
     color: #5cc8d6;
-    font-style: italic;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     -webkit-text-stroke-color: #09503b;
     -webkit-text-stroke-width: 1px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .toppy{
     list-style: none;
     margin-left: 1050px;
 }
-
 .topper{
-    height: 2px;
     list-style: none;
+    height: 2px;
 }
 .topper li{
     float:left;
 }
 .topper li a{
-    display: block;
+    padding-right: 30px;
     height: 20px;
     text-decoration: none;
+    display: block;
     color: #09868f;
-    padding-right: 30px;
 }
 .topper li a:hover{
     color: #008526;
+}
+
+.parallelogram{
+    width: 910px;
+    height: 55px;
+    transform: skew(8deg);
+    margin-left: 10px;
+    text-align: center;
+}
+
+.comment{
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 body{
@@ -84,36 +96,24 @@ img{
     width: 65px;
     margin-left: 20px;
     float: left;
-    margin-left: 20px;
-}
-
-.parallelogram{
-    width: 910px;
-    height: 55px;
-    transform: skew(8deg);
-    margin-left: 10px;
-    text-align: center;
-    
 }
 
 h4{
-    background-color: rgba(138, 255, 218, 0.864);
     font-size: medium;
     text-decoration: none;
+    background-color: rgba(138, 255, 218, 0.864);
 }
+
 h5{
+    margin-top: 65px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
     font-weight:100;
-    margin-top: 65px;
 }
+
 p{
+    padding-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
     font-weight: 300;
-}
-
-.comment{
-    padding: 10px;
-    flex-wrap: wrap;
 }
