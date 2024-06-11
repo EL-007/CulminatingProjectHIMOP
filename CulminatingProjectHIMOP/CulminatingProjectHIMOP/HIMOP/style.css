@@ -1,3 +1,5 @@
+/* Styling for the main page */
+/* Sections */
 .top{
     height: 60px;
     width: 100%;
@@ -26,6 +28,7 @@
     background: whitesmoke;
 }
 
+/* side section functions */
 .sideBarFunctions{
     padding-left: 15px;
     height: 40px;
@@ -38,6 +41,7 @@
     text-decoration: none;
 }
 
+/* Top section guide buttons */
 .toppy{
     list-style: none;
     margin-left: 1050px;
@@ -60,6 +64,7 @@
     color: #008526;
 }
 
+/* debate section, question and comments */
 .parallelogram{
     width: 910px;
     height: 55px;
@@ -67,12 +72,13 @@
     margin-left: 10px;
     text-align: center;
 }
-
 .comment{
     margin: 15px;
     margin-left: 100px;
 }
 
+/* text styles */
+/* heading */
 header{
     text-align: center;
     line-height: 20px;
@@ -86,37 +92,27 @@ header{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* basic/body text */
 body{
     background-color: darkslategray;
     font-family: Courier, monospace;
 }
 
-img{
-    border-radius: 150%;
-    width: 60px;
-    margin-left: 20px;
-    float: left;
-}
-
+/* comment username & external text */
 h3{
     font-weight: 100;
     font-size: medium;
     margin: auto;
 }
 
+/* debate question */
 h4{
     font-size: medium;
     text-decoration: none;
     background-color: rgba(138, 255, 218, 0.864);
 }
 
-h5{
-    margin-top: 65px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:medium;
-    font-weight:100;
-}
-
+/* comment text description */
 h6{
     padding: 10px;
     padding-left: 100px;
@@ -126,6 +122,7 @@ h6{
     font-weight: 300;
 }
 
+/* website notice text */
 p{
     padding-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
@@ -133,6 +130,15 @@ p{
     font-weight: 300;
 }
 
+/* profile image */
+img{
+    border-radius: 150%;
+    width: 60px;
+    margin-left: 20px;
+    float: left;
+}
+
+/* right section external text and attraction image/gif */
 .sideBar-right h3{
     text-align: center;
     line-height: 250px;
